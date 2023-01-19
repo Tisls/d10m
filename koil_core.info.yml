@@ -1,0 +1,6 @@
+name: Koil Core
+type: module
+package: Koil
+description: 'Koil_Core'
+core_version_requirement: ^9 || ^10
+
