@@ -45,3 +45,4 @@ alert(qwerty && !qwe); // || - or true ot false // && only true // ! change true
 
 
 //kkkk
+//lkjhgf
