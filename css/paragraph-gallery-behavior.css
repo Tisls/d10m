@@ -1,0 +1,28 @@
+.paragraph--type--gallery .field--name-field-gallery{
+  display: grid;
+  grid-template-columns: 8ch auto;
+ padding: 3rem;
+}
+.paragraph--type--gallery .field--name-field-media-image {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 8ch auto;
+}
+.paragraph--type--gallery.column-3 .media--view-mode-default {
+  position: relative;
+  right: 1rem;
+}
+@media (min-width: 600px) {
+  .paragraph--type--gallery.column-2 .field--name-field-media-image{
+
+  }
+
+  .paragraph--type--gallery.column-3 .field--name-field-media-image {
+    display: inline-block;
+    float: left;
+
+  }
+
+}
+
+

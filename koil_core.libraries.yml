@@ -1,0 +1,11 @@
+paragraph_gallery_behavior:
+  css:
+    component:
+      css/paragraph-gallery-behavior.css: {}
+      css/rep.css: {}
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/once
