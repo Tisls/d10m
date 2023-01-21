@@ -1,3 +1,4 @@
+/*
 "use strict";
 let number = 5;
 const leftBorderWidth = 1;
@@ -9,7 +10,7 @@ const obj = {
   age: 25,
   isMarried: false
 };
-//alert(obj)
+alert(obj)
 obj.a = 20;
 
 {
@@ -21,11 +22,11 @@ const bool = true;
 
 
 let und;
-//alert(und)
+alert(und)
 
-//const result = confirm("Are u here?")
-//const answer = +prompt("Your age", "18");
-//alert(answer + 10);
+const result = confirm("Are u here?")
+const answer = +prompt("Your age", "18");
+alert(answer + 10);
 
 const answers = [];
 answers[0] = prompt("Your nane",'');
@@ -44,5 +45,23 @@ let qwerty = true,
 alert(qwerty && !qwe); // || - or true ot false // && only true // ! change true to false or false to true
 
 
-//kkkk
-//lkjhgf
+
+*/
+
+let numberOfFilms = +prompt("Сколько фильмов вы смотрели ?", "");
+
+
+let personalMovieDB = {
+  count: numberOfFilms,
+  movies: {},
+  actors: {},
+  genres: [],
+  privat: false
+};
+
+const a = prompt('Kakoy film?', ''),
+  b = prompt('Ocenka filma',''),
+  c = prompt('Kakoy film?', ''),
+  d = prompt('Ocenka filma','');
+personalMovieDB.movies[a] = b;
+console.log(personalMovieDB);
