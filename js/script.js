@@ -65,3 +65,4 @@ const a = prompt('Kakoy film?', ''),
   d = prompt('Ocenka filma','');
 personalMovieDB.movies[a] = b;
 console.log(personalMovieDB);
+//fff
